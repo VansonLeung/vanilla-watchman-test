@@ -46,10 +46,8 @@ window.WatchmanClient = window.WatchmanClient || (() => {
         console.warn(`[WatchmanClient] Watchman Server inactive. Usage:
 
 1. Open shell / CMD
-2. run 'cd /path/to/iteach_mu_sub_repository'
-3. run 'npm install'
-4. copy .env.default to .env and set the WATCHMAN_SRC_FOLDER and WATCHMAN_DEST_FOLDER inside .env
-5. run 'npm start'  or   run 'npm run start'  (see 'package.json' for more details)
+2. run 'npm install'
+3. run 'npm run dev:watch'  (see 'package.json' for more details)
 
 Once it runs, it automatically copies all files from WATCHMAN_SRC_FOLDER to WATCHMAN_DEST_FOLDER.
 Upon running the watch command, the server will start listening for file changes.
