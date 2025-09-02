@@ -1,5 +1,11 @@
 # vanilla-watchman-test
 
+## install
+
+```
+npm install
+```
+
 ## run
 
 ```
