@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-watchman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd ./src && npx http-server -c-1 -p 8586",
+    "dev:watch": "node ./scripts/run_watchman.js -w",
+    "css:watch": "npx @tailwindcss/cli -i ./src/styles/main.css -o ./src/dist/styles/global.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "chokidar": "^4.0.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.1",
+    "tailwindcss": "^4.1.12",
+    "winston": "^3.17.0",
+    "ws": "^8.18.3"
+  }
+}

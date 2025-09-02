@@ -1,0 +1,26 @@
+
+@theme {
+  --font-sans: "Satoshi", "sans-seriff suck";
+  --breakpoint-3xl: 1920px;
+  --color-primary: #aab9ff; /* Default primary */
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  --color-avocado-100: rgb(255,255,255);
+  --color-avocado-200: rgb(233,255,255);
+  --color-avocado-300: rgb(211,255,255);
+  --color-avocado-400: rgb(189,255,255);
+  --color-avocado-500: rgb(167,255,255);
+  --color-avocado-600: rgb(144,255,255);
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@layer base {
+  [data-theme='ocean'] {
+    --color-primary: #77b4ea; /* Ocean theme primary */
+  }
+  [data-theme='rainforest'] {
+    --color-primary: #56d0a0; /* Rainforest theme primary */
+  }
+}
+
